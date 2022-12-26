@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import'./components/app.css'
+import './index.css'
+import './components/search.jsx'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="App">
+<p>Where in the world?</p>
+<div class='App2'>
+<i class="fa-solid fa-moon"></i>
+</div>
+<div class="App3">
+  <p>Dark Mode</p>
+</div>
+<div class="App4">
+<i class="fa-solid fa-magnifying-glass"></i>
+  <input type={Text} value="Search for country" style={{width: "401px"}}></input>
+  
+</div>
     </div>
-  );
+  )    
 }
 
+
+
+ 
+
+
 export default App;
+

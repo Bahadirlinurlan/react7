@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App2 {
+  padding-left: 88%;
+  margin-top: -4%;
+  position: relative;
+}
+
+.App3 {
+  padding-left: 90%;
+  margin-top: -3.1%;
+  position: relative;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 15.5px;
+  font-weight: 200;
+}
+
+.App4 input{
+  height: 51px;
+  border-radius: 0.75rem;
+  padding-left: 2rem;
+  outline: 2px solid transparent;
+    outline-offset: 2px;
+    margin-left: -0.3%;
+   margin-top: -4%;
+   display: flex;
+  
+  }
+  .App4 i{
+    margin-left: 0%;
+    margin-bottom: 2%;
+    font-weight: 600;
+  }
